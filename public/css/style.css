@@ -1,0 +1,39 @@
+#categoryMain li:hover  {
+    background-color: #DC2626;
+    color: white;
+}
+#categoryMain li:hover .categoryChild {
+    display: block;
+}
+#categoryMain li {
+    background-color:  rgb(219, 208, 208);
+}
+.categoryChild li {
+    background-color: rgb(219, 208, 208);
+}
+.categoryChild {
+    display: none;
+}
+#categoryMain li:hover .categoryChild li:hover {
+    background-color: #DC2626;
+    color: white;
+    border-left: 8px solid #1E3A8A;
+}
+#menu li:hover  {
+    background-color: #DC2626;
+    color: white;
+}
+#menu li:hover .sub-menu {
+    display: block;
+}
+.sub-menu li {
+    background-color: rgb(231, 220, 220);
+}
+.sub-menu {
+    display: none;
+}
+#menu li:hover .sub-menu li:hover {
+    background-color: #DC2626;
+    color: white;
+    border-left: 8px solid green;
+}
